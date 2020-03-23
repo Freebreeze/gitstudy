@@ -1,0 +1,6 @@
+# 基本操作
+
+1. 创建新分支：git checkout -b ----
+2. 预览分支：git branch
+3. 合并分支：git merge --no-ff ----
+4. 图表形式查看分支
