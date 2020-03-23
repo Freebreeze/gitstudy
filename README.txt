@@ -4,3 +4,4 @@ this is master
 ->feature-A
 this is fix-B
 
+this is fix-E
