@@ -3,4 +3,8 @@
 1. 创建新分支：git checkout -b ----
 2. 预览分支：git branch
 3. 合并分支：git merge --no-ff ----
-4. 图表形式查看分支
+4. 图表形式查看分支：git log --graph
+5. 回溯历史版本：git reset --hard -----
+6. 查看操作日志：git reflog
+7. 修改提交信息：git commit --amend
+8. 推送至远程仓库：git push -u
