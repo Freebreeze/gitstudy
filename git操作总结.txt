@@ -1,15 +1,17 @@
 # 基本操作
 
 1. 创建新分支：git checkout -b ----
-2. 预览分支：git branch
-3. 删除本地分支：git branch -d ----;删除本地未提交分支：git branch -D ----
-4. 删除远程分支：git push origin --delete ----
-5. 合并分支：git merge --no-ff ----
-6. 图表形式查看分支：git log --graph
-7. 回溯历史版本：git reset --hard -----
-8. 查看操作日志：git reflog
-9. 修改提交信息：git commit --amend
-10. 推送至远程仓库：git push -u
+2. 根据某个tag创建分支：git checkout -b [branch name] [tag name]
+3. 预览分支：git branch
+4. 删除本地分支：git branch -d ----;删除本地未提交分支：git branch -D ----
+5. 删除远程分支：git push origin --delete ----
+6. 合并分支：git merge --no-ff ----
+7. 图表形式查看分支：git log --graph
+8. 回溯历史版本：git reset --hard -----
+9. 查看操作日志：git reflog
+10. 修改提交信息：git commit --amend
+11. 推送至远程仓库：git push -u
+12. 下载远程分支 git checkout -b [feature-D] [origin/feature-D]
 
 # 经常要输入密码
 如果我们git clone的下载代码的时候是连接的https://而不是git@git (ssh)的形式，当我们操作git pull/push到远程的时候，总是提示我们输入账号和密码才能操作成功，频繁的输入账号和密码会很麻烦。
@@ -29,3 +31,6 @@ git config --global credential.helper store
 #界面支持中文
 
 把git的配置改一下 git config --global core.quotepath false 就可以了
+
+#git fork后同步更新
+https://blog.csdn.net/csm201314/article/details/83045605?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task
